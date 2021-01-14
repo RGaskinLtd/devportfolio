@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Richards Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="scss/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,9 +31,6 @@
                 <a href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
@@ -48,9 +45,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Richard Gaskin</h1>
+            <h2>Senior Frontend Developer</h2>
+            <a href="files/richard-cv.docx" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -73,9 +70,10 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        I have worked in the technology industry since 2013 and in that time I have developed a wide range of knowledge in computer software as well as hardware.
+                        I got into computing as a hobby and was all self taught. I did do my BTEC Diploma Level 2 in IT but I found a job so didn’t continue down that road.
+                        There is a list of technologies I have used in each job description with a starting date and ending date below.
+                        My strongest traits are in front end stacks as I find that more rewarding, but I am more than capable to work with backend tech stacks as well.
                     </p>
                 </div>
             </div>
@@ -86,64 +84,70 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="28th of October 2019 – Present">
+                <h3>AllDayPA</h3>
+                <h4>Senior Full Stack Developer</h4>
+                <ul>
+                    <li>responsible for all internal front end applications</li>
+                    <ul>
+                        <li>realtime dashboard for monitoring calls and devices</li>
+                        <li>wallboard for displaying call counts and many other things.</li>
+                        <li>Scripting app (PA assistant for getting the correct info)</li>
+                        <li>Script Builder making it easy to build new scripts for different companies</li>
+                        <li>view some screenshots of these projects <a href="https://photos.app.goo.gl/2Cs9Ef7XLCk4uGz57" target="_blank">here</a></li>
+                    </ul>
+                    <li>Responsible for the Design of the front end apps</li>
+                    <li>Responsible for the server architecture of all the applications I make this includes</li>
+                    <ul>
+                        <li>webstomp(websockets)</li>
+                        <li>SSE(Server sent events)</li>
+                        <li>CRUD/REST APIs (express.js)</li>
+                        <li>postgres DB</li>
+                    </ul>
+                    <li>responsible for the component structure and reusability of each component</li>
+                    <li>main front end framework I use is VueJs, I love this framework</li>
+                    <li>responsible for R&D (making sure we are using the best tech for the job)</li>
+                    <li>using Docker to deploy my code for staging and production level releases.</li>
+                    <li>Using kubernetes to manage all my Docker images on clusters</li>
+                </ul>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="25th of March 2019 - 16th of August 2019">
+                <h3>JD Williams</h3>
+                <h4>Frontend Developer</h4>
+                <ul>
+                    <li>Updating old systems to newer UI using css and javascript</li>
+                    <li>Building concepts</li>
+                    <li>Providing UX and UI advice on new concepts / ideas</li>
+                    <li>Taking complex problems and coming up with simple solutions.</li>
+                    <li>Working closely with the project managers to communicate issues and concerns</li>
+                </ul>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="1st of Feb 2016 - 1st of Feb 2019">
+                <h3>JDSports</h3>
+                <h4>Frontend Developer</h4>
+                <ul>
+                    <li>making vue.js applications, so making changes is a lot easier and faster.</li>
+                    <li>Responsive mailer build, using redeye and litmus for testing  </li>
+                    <li>Building interactive and responsive page builds for desktop, mobile and ipad view </li>
+                    <li>Working and understanding marketing techniques </li>
+                    <li>Working on team projects, team building</li>
+                    <li>Problem solving (solving issues upon the websites)</li>
+                    <li>Updating content upon the websites </li>
+                    <li>Developing the blog with wordpress. </li>
+                    <li>A few sites I work on regularly include</li>
+                    <ul>
+                        <li><a href="https://www.jdsports.co.uk/">https://www.jdsports.co.uk/</a></li>
+                        <li><a href="https://m.jdsports.co.uk/">https://m.jdsports.co.uk/</a></li>
+                        <li><a href="https://www.milletsports.co.uk/">https://www.milletsports.co.uk/</a></li>
+                        <li>(can provide more urls on request.)</li>
+                    </ul>
+                </ul>
             </div>
         </div>
     </div>
     <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -151,15 +155,22 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project-image.png" alt="image of realtime dashboard project"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Realtime Dashboard</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            The idea behind this project was to allow the supervisors of a team to see what was happening in realtime in the call centre so they could manage their team better.
+                            from here they could:
                         </p>
-                        <a href="#">View Project</a>
+                        <ul>
+                            <li>manage/monitor individual accounts and what calls they could take</li>
+                            <li>what their current state was</li>
+                            <li>how long they were in that state</li>
+                            <li>listen into calls etc.</li>
+                        </ul>
+                        <a href="https://photos.app.goo.gl/rvHy5p9wDBdoBiDc8" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,15 +178,24 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project-image-2.png" alt="image of wallboard project"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Wallboard</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            this project was built as an add on to the dashboard so you could build your own wallboards to show stats in realtime, features:
                         </p>
-                        <a href="#">View Project</a>
+                        <ul>
+                            <li>global & personal profiles</li>
+                            <li>each block is fully customizable by:</li>
+                            <ul>
+                                <li>name</li>
+                                <li>filters</li>
+                                <li>colours & alerts</li>
+                            </ul>
+                        </ul>
+                        <a href="https://photos.app.goo.gl/b12dDFF7Yffx3qCHA" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -188,32 +208,24 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>SCSS</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
+            <li>TypeScript</li>
             <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
+            <li>Vuejs</li>
+            <li>Vuex</li>
+            <li>WebSockets</li>
+            <li>SSE</li>
+            <li>Svelte</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Java Spring</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>Chrome Extentions</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -221,7 +233,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/f/xjvpjdlz">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,35 +249,13 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2020 Richard Gaskin
                     </p>
                 </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

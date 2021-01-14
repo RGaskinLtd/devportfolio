@@ -672,6 +672,16 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+        .center {
+            text-align: center;
+        }
+    }
+    ul {
+        color: $text;
+        li {
+            color: $text;
+            text-align: left;
+        }
     }
 }
 

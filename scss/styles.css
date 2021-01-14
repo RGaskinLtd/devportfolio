@@ -665,6 +665,15 @@ footer {
   text-align: center;
 }
 
+.project-info ul {
+  color: #74808a;
+}
+
+.project-info ul li {
+  color: #74808a;
+  text-align: left;
+}
+
 .no-image .project-info {
   position: relative;
   margin: 0;
